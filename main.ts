@@ -1,10 +1,10 @@
-input.onButtonPressed(Button.A, function () {
-    basic.showString("Hi")
+input.onButtonPressed(Button.AB, function () {
+    music.playTone(784, music.beat(BeatFraction.Breve))
+    music.playTone(740, music.beat(BeatFraction.Double))
+    music.playTone(988, music.beat(BeatFraction.Whole))
+    music.playTone(659, music.beat(BeatFraction.Whole))
+    music.playTone(587, music.beat(BeatFraction.Whole))
+    music.playTone(784, music.beat(BeatFraction.Whole))
+    music.playTone(523, music.beat(BeatFraction.Whole))
 })
-input.onButtonPressed(Button.B, function () {
-    basic.showString("Bye!")
-})
-basic.showIcon(IconNames.Skull)
-basic.forever(function () {
-	
-})
+basic.showString("Welcomne to the Black Parade")
